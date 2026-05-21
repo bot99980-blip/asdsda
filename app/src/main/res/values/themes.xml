@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основная тема приложения -->
+    <style name="Theme.Asdsda" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Основные цвета -->
+        <item name="android:colorPrimary">#FFBB86FC</item>
+        <item name="android:colorPrimaryDark">#FF3700B3</item>
+        <item name="android:colorAccent">#FF03DAC5</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- Тема для Splash Screen -->
+    <style name="Theme.Asdsda.Splash" parent="Theme.Asdsda">
+        <!-- Фон Splash Screen -->
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <!-- Отключаем ActionBar для Splash Screen -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
